@@ -1,0 +1,10 @@
+D:\Proiecte c#\Doctorat\Common\ResultProcessor\bin\Debug\ResultProcessor.dll
+D:\Proiecte c#\Doctorat\Common\ResultProcessor\bin\Debug\ResultProcessor.pdb
+D:\Proiecte c#\Doctorat\Common\ResultProcessor\bin\Debug\Agora.dll
+D:\Proiecte c#\Doctorat\Common\ResultProcessor\bin\Debug\Agora.pdb
+D:\Proiecte c#\Doctorat\Common\ResultProcessor\obj\Debug\ResolveAssemblyReference.cache
+D:\Proiecte c#\Doctorat\Common\ResultProcessor\obj\Debug\ResultProcessor.dll
+D:\Proiecte c#\Doctorat\Common\ResultProcessor\obj\Debug\ResultProcessor.pdb
+D:\Proiecte c#\Doctorat\Common\ResultProcessor\obj\Debug\ResultProcessor.frmProgress.resources
+D:\Proiecte C#\Doctorat\Common\ResultProcessor\obj\Debug\ResGen.read.1.tlog
+D:\Proiecte C#\Doctorat\Common\ResultProcessor\obj\Debug\ResGen.write.1.tlog

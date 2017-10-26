@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Agora.Builder.System.BaseApplication" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIgAAAAAAAAAAAkAAAAAAAAA=</HashCode>
+      <FileName>Builder\System\BaseApplication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Properties.Resources" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAABAAAAAAAIAABEAAgAQAAAgAAAAEAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Serialization.Serialization&lt;Type&gt;" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serialization\Serialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.SysUtils.Dialogs.Empty" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SysUtils\Dialogs\Empty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.SysUtils.Dialogs.InputBox" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SysUtils\Dialogs\InputBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.SysUtils.Logging.SysLog" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAACAAAAAAAAAAAIAAAICAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>SysUtils\Logging\SysLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Decision.DecisionContainer" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEkAACBAUAAAIECAAcACAAAAAAACAAQAAAAAAUE=</HashCode>
+      <FileName>Text\UI\Decision\DecisionContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Decision.DecisionLevel" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAACAGCAgAAEAAADIAYAKAAA5AIAAAHAAAwBQgEI=</HashCode>
+      <FileName>Text\UI\Decision\DecisionLevel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Decision.frmSingleDecisionEditor" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Text\UI\Decision\frmSingleDecisionEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Decision.OrientedLabel" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACACAAAAAgAACAAAACgAAACAAAAAAAIAAAACCAAAAg=</HashCode>
+      <FileName>Text\UI\Decision\OrientedLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Decision.SingleDecision" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIACAQAACAAFBAAAACAEAACAAAAAAAAIAAAAAAAAQA=</HashCode>
+      <FileName>Text\UI\Decision\SingleDecision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Decision.SingleDecisionPropertyBinding" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAEAEAAAABAAAAAQAAAAAAAABAAAAAQAAAABAAAA=</HashCode>
+      <FileName>Text\UI\Decision\SingleDecision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Flow.Execution.ExecutionUnit" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Text\UI\Flow\Execution\ExecutionUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Flow.Execution.ExecutionUnitOutput" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAABAAAQAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Text\UI\Flow\Execution\ExecutionUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Flow.Execution.ExecutionUnitDataBinding" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAIIAABAQAhAAUAAgAAIAAAAAAAAA=</HashCode>
+      <FileName>Text\UI\Flow\Execution\ExecutionUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Flow.Execution.ApplicationRegexOptions" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Text\UI\Flow\Execution\ExecutionUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Flow.Execution.FilePathEditor" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Text\UI\Flow\Execution\ExecutionUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Flow.Execution.ApplicationRegexExpander" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Text\UI\Flow\Execution\ExecutionUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Flow.FlowConnector" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAIAAAAAAAAABAAACAAAAAACAEAAAAAIAAA=</HashCode>
+      <FileName>Text\UI\Flow\FlowConnector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Flow.FlowDecision" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAgACACDAAAAAIRACAEAACAAQ4BAEAAOEAQAAgSAI=</HashCode>
+      <FileName>Text\UI\Flow\FlowDecision.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Agora.Text.UI.Flow.FlowDiagram" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BwECBBUiASCAQAbAIVigSUQmQAgAAWAAAgAQQBJJEAU=</HashCode>
+      <FileName>Text\UI\Flow\FlowDiagram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Flow.FlowComponentXML" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAgAAAAJAAAAAAAQAgAAAAA=</HashCode>
+      <FileName>Text\UI\Flow\FlowDiagram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Flow.FlowDiagramXML" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Text\UI\Flow\FlowDiagram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.UI.Flow.FlowProcessing" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAgACACCAIAAAIQACAAAACAAQoJAEAAMEAQAAgCAI=</HashCode>
+      <FileName>Text\UI\Flow\FlowProcessing.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Agora.Text.UI.Flow.FlowStart" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAgACACCAAABAIQACEAAACAAAIBAEAAMEAQAAgCAI=</HashCode>
+      <FileName>Text\UI\Flow\FlowStart.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Agora.Text.UI.Flow.FlowStop" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAACACCAAABAIQACAAAACAAQgBAEAAIEAQAAgCAI=</HashCode>
+      <FileName>Text\UI\Flow\FlowStop.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Agora.Text.UI.Flow.Windows.frmChooseNextComponent" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEAGAQAAAAAAiAIAACAAAAQAAAAMgAAAAAAAA=</HashCode>
+      <FileName>Text\UI\Flow\Windows\frmChooseNextComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.Web.Extraction.BasicHTMLTextExtraction" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAASAAAACAAAAAAAAAAEAAAQAA=</HashCode>
+      <FileName>Text\Web\Extraction\BasicHTMLTextExtraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.Web.Extraction.TextWebBrowser" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAQAAABAAA=</HashCode>
+      <FileName>Text\Web\Extraction\TextWebBrowser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.Web.Extraction.PostData" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAJAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Text\Web\Extraction\TextWebBrowser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.Web.Processing.Sites.Wikitravel.WikitravelCrawler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAAAAAAAAAAAAAAAAEAAAAAAEQEAAAMAAQBAAAAACA=</HashCode>
+      <FileName>Text\Web\Processing\Sites\Wikitravel\WikitravelCrawler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Agora.Text.Web.Processing.Sites.Wikitravel.DataCollectedEventArgs" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAgAACAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Text\Web\Processing\Sites\Wikitravel\WikitravelCrawler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Agora.Text.Web.Processing.Sites.Wikitravel.WikitravelDataExtraction" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAEAAQAAAAAAA=</HashCode>
+      <FileName>Text\Web\Processing\Sites\Wikitravel\WikitravelDataExtraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Agora.Builder.Interfaces.DecisionBlock" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\Interfaces\DecisionBlock.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Agora.Builder.Interfaces.ProcessingBlock" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Builder\Interfaces\ProcessingBlock.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Agora.Text.UI.Flow.Interfaces.FlowComponent" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAQAAEAAAAAAAAAAEAAIAAQAAgCAI=</HashCode>
+      <FileName>Text\UI\Flow\Interfaces\FlowComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Agora.Text.UI.Decision.Orientation" Collapsed="true">
+    <Position X="4" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAgAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Text\UI\Decision\OrientedLabel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Agora.Text.UI.Decision.Direction" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Text\UI\Decision\OrientedLabel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Agora.Text.UI.Decision.SingleDecisionType" Collapsed="true">
+    <Position X="5.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Text\UI\Decision\SingleDecision.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Agora.Text.Web.Processing.Sites.Wikitravel.LanguageType" Collapsed="true">
+    <Position X="2.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAgAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Text\Web\Processing\Sites\Wikitravel\WikitravelCrawler.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Agora.Text.UI.Flow.ClickEvent" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Text\UI\Flow\FlowDecision.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

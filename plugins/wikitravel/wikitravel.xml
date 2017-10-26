@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <DesignerItems>
+    <DesignerItem>
+      <Left>315</Left>
+      <Top>3</Top>
+      <Width>78</Width>
+      <Height>65</Height>
+      <ID>7d81690e-f76b-4e22-a89f-1a105b42b529</ID>
+      <zIndex>0</zIndex>
+      <IsGroup>false</IsGroup>
+      <ParentID>00000000-0000-0000-0000-000000000000</ParentID>
+      <Content>&lt;Path ToolTip="Start" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dd="clr-namespace:DiagramDesigner;assembly=DiagramDesigner"&gt;&lt;Path.Style&gt;&lt;Style TargetType="Path"&gt;&lt;Style.BasedOn&gt;&lt;Style TargetType="Path"&gt;&lt;Style.Resources&gt;&lt;ResourceDictionary /&gt;&lt;/Style.Resources&gt;&lt;Setter Property="Shape.Fill"&gt;&lt;Setter.Value&gt;&lt;LinearGradientBrush StartPoint="0,0" EndPoint="0,1"&gt;&lt;LinearGradientBrush.GradientStops&gt;&lt;GradientStop Color="#FFFAFBE9" Offset="0" /&gt;&lt;GradientStop Color="#FFFFA500" Offset="1" /&gt;&lt;/LinearGradientBrush.GradientStops&gt;&lt;/LinearGradientBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Stroke"&gt;&lt;Setter.Value&gt;&lt;SolidColorBrush&gt;#FFD69436&lt;/SolidColorBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.StrokeThickness"&gt;&lt;Setter.Value&gt;&lt;s:Double&gt;1&lt;/s:Double&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.StrokeLineJoin"&gt;&lt;Setter.Value&gt;&lt;x:Static Member="PenLineJoin.Round" /&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Stretch"&gt;&lt;Setter.Value&gt;&lt;x:Static Member="Stretch.Fill" /&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="UIElement.IsHitTestVisible"&gt;&lt;Setter.Value&gt;&lt;s:Boolean&gt;False&lt;/s:Boolean&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="UIElement.SnapsToDevicePixels"&gt;&lt;Setter.Value&gt;&lt;s:Boolean&gt;True&lt;/s:Boolean&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;/Style&gt;&lt;/Style.BasedOn&gt;&lt;Style.Resources&gt;&lt;ResourceDictionary /&gt;&lt;/Style.Resources&gt;&lt;Setter Property="Path.Data"&gt;&lt;Setter.Value&gt;&lt;StreamGeometry&gt;M10,20A20,20,0,1,1,50,20A20,20,0,1,1,10,20&lt;/StreamGeometry&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;/Style&gt;&lt;/Path.Style&gt;&lt;dd:DesignerItem.DragThumbTemplate&gt;&lt;ControlTemplate&gt;&lt;Path&gt;&lt;Path.Style&gt;&lt;Style TargetType="Path"&gt;&lt;Style.BasedOn&gt;&lt;Style TargetType="Path"&gt;&lt;Style.BasedOn&gt;&lt;Style TargetType="Path"&gt;&lt;Style.Resources&gt;&lt;ResourceDictionary /&gt;&lt;/Style.Resources&gt;&lt;Setter Property="Shape.Fill"&gt;&lt;Setter.Value&gt;&lt;LinearGradientBrush StartPoint="0,0" EndPoint="0,1"&gt;&lt;LinearGradientBrush.GradientStops&gt;&lt;GradientStop Color="#FFFAFBE9" Offset="0" /&gt;&lt;GradientStop Color="#FFFFA500" Offset="1" /&gt;&lt;/LinearGradientBrush.GradientStops&gt;&lt;/LinearGradientBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Stroke"&gt;&lt;Setter.Value&gt;&lt;SolidColorBrush&gt;#FFD69436&lt;/SolidColorBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.StrokeThickness"&gt;&lt;Setter.Value&gt;&lt;s:Double&gt;1&lt;/s:Double&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.StrokeLineJoin"&gt;&lt;Setter.Value&gt;&lt;x:Static Member="PenLineJoin.Round" /&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Stretch"&gt;&lt;Setter.Value&gt;&lt;x:Static Member="Stretch.Fill" /&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="UIElement.IsHitTestVisible"&gt;&lt;Setter.Value&gt;&lt;s:Boolean&gt;False&lt;/s:Boolean&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="UIElement.SnapsToDevicePixels"&gt;&lt;Setter.Value&gt;&lt;s:Boolean&gt;True&lt;/s:Boolean&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;/Style&gt;&lt;/Style.BasedOn&gt;&lt;Style.Resources&gt;&lt;ResourceDictionary /&gt;&lt;/Style.Resources&gt;&lt;Setter Property="Path.Data"&gt;&lt;Setter.Value&gt;&lt;StreamGeometry&gt;M10,20A20,20,0,1,1,50,20A20,20,0,1,1,10,20&lt;/StreamGeometry&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;/Style&gt;&lt;/Style.BasedOn&gt;&lt;Style.Resources&gt;&lt;ResourceDictionary /&gt;&lt;/Style.Resources&gt;&lt;Setter Property="UIElement.IsHitTestVisible"&gt;&lt;Setter.Value&gt;&lt;s:Boolean&gt;True&lt;/s:Boolean&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Fill"&gt;&lt;Setter.Value&gt;&lt;SolidColorBrush&gt;#00FFFFFF&lt;/SolidColorBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Stroke"&gt;&lt;Setter.Value&gt;&lt;SolidColorBrush&gt;#00FFFFFF&lt;/SolidColorBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;/Style&gt;&lt;/Path.Style&gt;&lt;/Path&gt;&lt;/ControlTemplate&gt;&lt;/dd:DesignerItem.DragThumbTemplate&gt;&lt;/Path&gt;</Content>
+      <DataBinding>&lt;?xml version="1.0"?&gt;
+&lt;ExecutionUnitDataBinding xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Caption&gt;START&lt;/Caption&gt;
+  &lt;Name&gt;START&lt;/Name&gt;
+  &lt;InputRegex&gt;
+    &lt;Regex&gt;(.*)&lt;/Regex&gt;
+    &lt;Options&gt;Multiline&lt;/Options&gt;
+  &lt;/InputRegex&gt;
+  &lt;OutputRegex&gt;
+    &lt;Regex&gt;(.*)&lt;/Regex&gt;
+    &lt;Options&gt;Multiline&lt;/Options&gt;
+  &lt;/OutputRegex&gt;
+  &lt;ConditionRegex&gt;
+    &lt;Regex&gt;(.*)&lt;/Regex&gt;
+    &lt;Options&gt;Multiline&lt;/Options&gt;
+  &lt;/ConditionRegex&gt;
+&lt;/ExecutionUnitDataBinding&gt;</DataBinding>
+    </DesignerItem>
+    <DesignerItem>
+      <Left>357</Left>
+      <Top>266.87</Top>
+      <Width>78</Width>
+      <Height>65</Height>
+      <ID>fa34f6bd-6252-468d-9cde-68d86f1fd093</ID>
+      <zIndex>1</zIndex>
+      <IsGroup>false</IsGroup>
+      <ParentID>00000000-0000-0000-0000-000000000000</ParentID>
+      <Content>&lt;Path ToolTip="Terminator" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dd="clr-namespace:DiagramDesigner;assembly=DiagramDesigner"&gt;&lt;Path.Style&gt;&lt;Style TargetType="Path"&gt;&lt;Style.BasedOn&gt;&lt;Style TargetType="Path"&gt;&lt;Style.Resources&gt;&lt;ResourceDictionary /&gt;&lt;/Style.Resources&gt;&lt;Setter Property="Shape.Fill"&gt;&lt;Setter.Value&gt;&lt;LinearGradientBrush StartPoint="0,0" EndPoint="0,1"&gt;&lt;LinearGradientBrush.GradientStops&gt;&lt;GradientStop Color="#FFFAFBE9" Offset="0" /&gt;&lt;GradientStop Color="#FFFFA500" Offset="1" /&gt;&lt;/LinearGradientBrush.GradientStops&gt;&lt;/LinearGradientBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Stroke"&gt;&lt;Setter.Value&gt;&lt;SolidColorBrush&gt;#FFD69436&lt;/SolidColorBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.StrokeThickness"&gt;&lt;Setter.Value&gt;&lt;s:Double&gt;1&lt;/s:Double&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.StrokeLineJoin"&gt;&lt;Setter.Value&gt;&lt;x:Static Member="PenLineJoin.Round" /&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Stretch"&gt;&lt;Setter.Value&gt;&lt;x:Static Member="Stretch.Fill" /&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="UIElement.IsHitTestVisible"&gt;&lt;Setter.Value&gt;&lt;s:Boolean&gt;False&lt;/s:Boolean&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="UIElement.SnapsToDevicePixels"&gt;&lt;Setter.Value&gt;&lt;s:Boolean&gt;True&lt;/s:Boolean&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;/Style&gt;&lt;/Style.BasedOn&gt;&lt;Style.Resources&gt;&lt;ResourceDictionary /&gt;&lt;/Style.Resources&gt;&lt;Setter Property="Path.Data"&gt;&lt;Setter.Value&gt;&lt;StreamGeometry&gt;M20,40A20,20,0,0,1,20,0L40,0A20,20,0,0,1,40,40z&lt;/StreamGeometry&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;/Style&gt;&lt;/Path.Style&gt;&lt;dd:DesignerItem.DragThumbTemplate&gt;&lt;ControlTemplate&gt;&lt;Path&gt;&lt;Path.Style&gt;&lt;Style TargetType="Path"&gt;&lt;Style.BasedOn&gt;&lt;Style TargetType="Path"&gt;&lt;Style.BasedOn&gt;&lt;Style TargetType="Path"&gt;&lt;Style.Resources&gt;&lt;ResourceDictionary /&gt;&lt;/Style.Resources&gt;&lt;Setter Property="Shape.Fill"&gt;&lt;Setter.Value&gt;&lt;LinearGradientBrush StartPoint="0,0" EndPoint="0,1"&gt;&lt;LinearGradientBrush.GradientStops&gt;&lt;GradientStop Color="#FFFAFBE9" Offset="0" /&gt;&lt;GradientStop Color="#FFFFA500" Offset="1" /&gt;&lt;/LinearGradientBrush.GradientStops&gt;&lt;/LinearGradientBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Stroke"&gt;&lt;Setter.Value&gt;&lt;SolidColorBrush&gt;#FFD69436&lt;/SolidColorBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.StrokeThickness"&gt;&lt;Setter.Value&gt;&lt;s:Double&gt;1&lt;/s:Double&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.StrokeLineJoin"&gt;&lt;Setter.Value&gt;&lt;x:Static Member="PenLineJoin.Round" /&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Stretch"&gt;&lt;Setter.Value&gt;&lt;x:Static Member="Stretch.Fill" /&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="UIElement.IsHitTestVisible"&gt;&lt;Setter.Value&gt;&lt;s:Boolean&gt;False&lt;/s:Boolean&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="UIElement.SnapsToDevicePixels"&gt;&lt;Setter.Value&gt;&lt;s:Boolean&gt;True&lt;/s:Boolean&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;/Style&gt;&lt;/Style.BasedOn&gt;&lt;Style.Resources&gt;&lt;ResourceDictionary /&gt;&lt;/Style.Resources&gt;&lt;Setter Property="Path.Data"&gt;&lt;Setter.Value&gt;&lt;StreamGeometry&gt;M20,40A20,20,0,0,1,20,0L40,0A20,20,0,0,1,40,40z&lt;/StreamGeometry&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;/Style&gt;&lt;/Style.BasedOn&gt;&lt;Style.Resources&gt;&lt;ResourceDictionary /&gt;&lt;/Style.Resources&gt;&lt;Setter Property="UIElement.IsHitTestVisible"&gt;&lt;Setter.Value&gt;&lt;s:Boolean&gt;True&lt;/s:Boolean&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Fill"&gt;&lt;Setter.Value&gt;&lt;SolidColorBrush&gt;#00FFFFFF&lt;/SolidColorBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Stroke"&gt;&lt;Setter.Value&gt;&lt;SolidColorBrush&gt;#00FFFFFF&lt;/SolidColorBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;/Style&gt;&lt;/Path.Style&gt;&lt;/Path&gt;&lt;/ControlTemplate&gt;&lt;/dd:DesignerItem.DragThumbTemplate&gt;&lt;/Path&gt;</Content>
+      <DataBinding>&lt;?xml version="1.0"?&gt;
+&lt;ExecutionUnitDataBinding xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Caption&gt;STOP&lt;/Caption&gt;
+  &lt;Name&gt;STOP&lt;/Name&gt;
+  &lt;InputRegex&gt;
+    &lt;Regex&gt;(.*)&lt;/Regex&gt;
+    &lt;Options&gt;Multiline&lt;/Options&gt;
+  &lt;/InputRegex&gt;
+  &lt;OutputRegex&gt;
+    &lt;Regex&gt;(.*)&lt;/Regex&gt;
+    &lt;Options&gt;Multiline&lt;/Options&gt;
+  &lt;/OutputRegex&gt;
+  &lt;ConditionRegex&gt;
+    &lt;Regex&gt;(.*)&lt;/Regex&gt;
+    &lt;Options&gt;Multiline&lt;/Options&gt;
+  &lt;/ConditionRegex&gt;
+&lt;/ExecutionUnitDataBinding&gt;</DataBinding>
+    </DesignerItem>
+    <DesignerItem>
+      <Left>349</Left>
+      <Top>112.87</Top>
+      <Width>78</Width>
+      <Height>65</Height>
+      <ID>94f471a0-11b2-4980-9894-4e225324bce7</ID>
+      <zIndex>2</zIndex>
+      <IsGroup>false</IsGroup>
+      <ParentID>00000000-0000-0000-0000-000000000000</ParentID>
+      <Content>&lt;Path ToolTip="Process" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:dd="clr-namespace:DiagramDesigner;assembly=DiagramDesigner"&gt;&lt;Path.Style&gt;&lt;Style TargetType="Path"&gt;&lt;Style.BasedOn&gt;&lt;Style TargetType="Path"&gt;&lt;Style.Resources&gt;&lt;ResourceDictionary /&gt;&lt;/Style.Resources&gt;&lt;Setter Property="Shape.Fill"&gt;&lt;Setter.Value&gt;&lt;LinearGradientBrush StartPoint="0,0" EndPoint="0,1"&gt;&lt;LinearGradientBrush.GradientStops&gt;&lt;GradientStop Color="#FFFAFBE9" Offset="0" /&gt;&lt;GradientStop Color="#FFFFA500" Offset="1" /&gt;&lt;/LinearGradientBrush.GradientStops&gt;&lt;/LinearGradientBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Stroke"&gt;&lt;Setter.Value&gt;&lt;SolidColorBrush&gt;#FFD69436&lt;/SolidColorBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.StrokeThickness"&gt;&lt;Setter.Value&gt;&lt;s:Double&gt;1&lt;/s:Double&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.StrokeLineJoin"&gt;&lt;Setter.Value&gt;&lt;x:Static Member="PenLineJoin.Round" /&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Stretch"&gt;&lt;Setter.Value&gt;&lt;x:Static Member="Stretch.Fill" /&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="UIElement.IsHitTestVisible"&gt;&lt;Setter.Value&gt;&lt;s:Boolean&gt;False&lt;/s:Boolean&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="UIElement.SnapsToDevicePixels"&gt;&lt;Setter.Value&gt;&lt;s:Boolean&gt;True&lt;/s:Boolean&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;/Style&gt;&lt;/Style.BasedOn&gt;&lt;Style.Resources&gt;&lt;ResourceDictionary /&gt;&lt;/Style.Resources&gt;&lt;Setter Property="Path.Data"&gt;&lt;Setter.Value&gt;&lt;StreamGeometry&gt;M0,0L60,0 60,40 0,40z&lt;/StreamGeometry&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;/Style&gt;&lt;/Path.Style&gt;&lt;dd:DesignerItem.DragThumbTemplate&gt;&lt;ControlTemplate&gt;&lt;Path&gt;&lt;Path.Style&gt;&lt;Style TargetType="Path"&gt;&lt;Style.BasedOn&gt;&lt;Style TargetType="Path"&gt;&lt;Style.BasedOn&gt;&lt;Style TargetType="Path"&gt;&lt;Style.Resources&gt;&lt;ResourceDictionary /&gt;&lt;/Style.Resources&gt;&lt;Setter Property="Shape.Fill"&gt;&lt;Setter.Value&gt;&lt;LinearGradientBrush StartPoint="0,0" EndPoint="0,1"&gt;&lt;LinearGradientBrush.GradientStops&gt;&lt;GradientStop Color="#FFFAFBE9" Offset="0" /&gt;&lt;GradientStop Color="#FFFFA500" Offset="1" /&gt;&lt;/LinearGradientBrush.GradientStops&gt;&lt;/LinearGradientBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Stroke"&gt;&lt;Setter.Value&gt;&lt;SolidColorBrush&gt;#FFD69436&lt;/SolidColorBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.StrokeThickness"&gt;&lt;Setter.Value&gt;&lt;s:Double&gt;1&lt;/s:Double&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.StrokeLineJoin"&gt;&lt;Setter.Value&gt;&lt;x:Static Member="PenLineJoin.Round" /&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Stretch"&gt;&lt;Setter.Value&gt;&lt;x:Static Member="Stretch.Fill" /&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="UIElement.IsHitTestVisible"&gt;&lt;Setter.Value&gt;&lt;s:Boolean&gt;False&lt;/s:Boolean&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="UIElement.SnapsToDevicePixels"&gt;&lt;Setter.Value&gt;&lt;s:Boolean&gt;True&lt;/s:Boolean&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;/Style&gt;&lt;/Style.BasedOn&gt;&lt;Style.Resources&gt;&lt;ResourceDictionary /&gt;&lt;/Style.Resources&gt;&lt;Setter Property="Path.Data"&gt;&lt;Setter.Value&gt;&lt;StreamGeometry&gt;M0,0L60,0 60,40 0,40z&lt;/StreamGeometry&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;/Style&gt;&lt;/Style.BasedOn&gt;&lt;Style.Resources&gt;&lt;ResourceDictionary /&gt;&lt;/Style.Resources&gt;&lt;Setter Property="UIElement.IsHitTestVisible"&gt;&lt;Setter.Value&gt;&lt;s:Boolean&gt;True&lt;/s:Boolean&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Fill"&gt;&lt;Setter.Value&gt;&lt;SolidColorBrush&gt;#00FFFFFF&lt;/SolidColorBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;Setter Property="Shape.Stroke"&gt;&lt;Setter.Value&gt;&lt;SolidColorBrush&gt;#00FFFFFF&lt;/SolidColorBrush&gt;&lt;/Setter.Value&gt;&lt;/Setter&gt;&lt;/Style&gt;&lt;/Path.Style&gt;&lt;/Path&gt;&lt;/ControlTemplate&gt;&lt;/dd:DesignerItem.DragThumbTemplate&gt;&lt;/Path&gt;</Content>
+      <DataBinding>&lt;?xml version="1.0"?&gt;
+&lt;ExecutionUnitDataBinding xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;PluginDll&gt;E:\RACAI Stuff\Projects\Accurat\D3.5 Deliverable\Workflow Crawler\plugins\wikitravel\WikiExtractor.dll&lt;/PluginDll&gt;
+  &lt;Caption&gt;WIKITRAVEL&lt;/Caption&gt;
+  &lt;Name&gt;WIKITRAVEL&lt;/Name&gt;
+  &lt;InputRegex&gt;
+    &lt;Regex&gt;(.*)&lt;/Regex&gt;
+    &lt;Options&gt;Multiline&lt;/Options&gt;
+  &lt;/InputRegex&gt;
+  &lt;OutputRegex&gt;
+    &lt;Regex&gt;(.*)&lt;/Regex&gt;
+    &lt;Options&gt;Multiline&lt;/Options&gt;
+  &lt;/OutputRegex&gt;
+  &lt;ConditionRegex&gt;
+    &lt;Regex&gt;(.*)&lt;/Regex&gt;
+    &lt;Options&gt;Multiline&lt;/Options&gt;
+  &lt;/ConditionRegex&gt;
+&lt;/ExecutionUnitDataBinding&gt;</DataBinding>
+    </DesignerItem>
+  </DesignerItems>
+  <Connections>
+    <Connection>
+      <SourceID>7d81690e-f76b-4e22-a89f-1a105b42b529</SourceID>
+      <SinkID>94f471a0-11b2-4980-9894-4e225324bce7</SinkID>
+      <SourceConnectorName>Bottom</SourceConnectorName>
+      <SinkConnectorName>Top</SinkConnectorName>
+      <SourceArrowSymbol>None</SourceArrowSymbol>
+      <SinkArrowSymbol>Arrow</SinkArrowSymbol>
+      <zIndex>3</zIndex>
+    </Connection>
+    <Connection>
+      <SourceID>94f471a0-11b2-4980-9894-4e225324bce7</SourceID>
+      <SinkID>fa34f6bd-6252-468d-9cde-68d86f1fd093</SinkID>
+      <SourceConnectorName>Bottom</SourceConnectorName>
+      <SinkConnectorName>Top</SinkConnectorName>
+      <SourceArrowSymbol>None</SourceArrowSymbol>
+      <SinkArrowSymbol>Arrow</SinkArrowSymbol>
+      <zIndex>4</zIndex>
+    </Connection>
+  </Connections>
+</Root>

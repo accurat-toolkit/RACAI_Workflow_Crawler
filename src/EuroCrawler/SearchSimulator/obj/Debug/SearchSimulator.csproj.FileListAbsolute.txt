@@ -1,0 +1,10 @@
+D:\Proiecte c#\Doctorat\Common\SearchSimulator\obj\Debug\ResolveAssemblyReference.cache
+D:\Proiecte c#\Doctorat\Common\SearchSimulator\bin\Debug\SearchSimulator.dll
+D:\Proiecte c#\Doctorat\Common\SearchSimulator\bin\Debug\SearchSimulator.pdb
+D:\Proiecte c#\Doctorat\Common\SearchSimulator\bin\Debug\Agora.dll
+D:\Proiecte c#\Doctorat\Common\SearchSimulator\bin\Debug\Agora.pdb
+D:\Proiecte c#\Doctorat\Common\SearchSimulator\obj\Debug\SearchSimulator.dll
+D:\Proiecte c#\Doctorat\Common\SearchSimulator\obj\Debug\SearchSimulator.pdb
+D:\Proiecte c#\Doctorat\Common\SearchSimulator\obj\Debug\SearchSimulator.frmConfiguration.resources
+D:\Proiecte C#\Doctorat\Common\SearchSimulator\obj\Debug\ResGen.read.1.tlog
+D:\Proiecte C#\Doctorat\Common\SearchSimulator\obj\Debug\ResGen.write.1.tlog

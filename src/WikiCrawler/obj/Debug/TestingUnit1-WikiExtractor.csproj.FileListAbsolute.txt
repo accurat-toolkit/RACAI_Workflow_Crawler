@@ -1,0 +1,11 @@
+D:\Proiecte c#\Doctorat\Common\Common\bin\Debug\Common.pdb
+D:\Proiecte c#\Doctorat\Common\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Proiecte c#\Doctorat\Common\Common\obj\Debug\Common.Properties.Resources.resources
+D:\Proiecte c#\Doctorat\Common\Common\obj\Debug\Common.pdb
+D:\Proiecte c#\Doctorat\Common\Common\bin\Debug\Agora.dll
+D:\Proiecte c#\Doctorat\Common\Common\bin\Debug\Agora.pdb
+D:\Proiecte c#\Doctorat\Common\Common\obj\Debug\Common.frmMain.resources
+D:\Proiecte C#\Doctorat\Common\Common\obj\Debug\ResGen.read.1.tlog
+D:\Proiecte C#\Doctorat\Common\Common\obj\Debug\ResGen.write.1.tlog
+D:\Proiecte C#\Doctorat\Common\Common\bin\Debug\Common.dll
+D:\Proiecte C#\Doctorat\Common\Common\obj\Debug\Common.dll

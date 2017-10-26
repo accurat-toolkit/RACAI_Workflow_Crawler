@@ -1,0 +1,10 @@
+﻿<Window x:Class="DiagramDesigner.frmProgress"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="frmProgress" Height="314" Width="447" Topmost="False" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow">
+    <Grid>
+        <ProgressBar Height="15" Margin="11,33,13,0" Name="pgbMain" VerticalAlignment="Top" />
+        <Label Margin="11,8,13,24" Name="lblStatus">Label</Label>
+        <TextBox Margin="12,55,12,6" Name="edtLog" BorderThickness="1" IsReadOnly="False" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible" AcceptsReturn="True" />
+    </Grid>
+</Window>

@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5C35E69B-092E-4AF5-B190-C2240DEA0225}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Agora</RootNamespace>
+    <AssemblyName>Agora</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsFormsIntegration">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Builder\Interfaces\DecisionBlock.cs" />
+    <Compile Include="Builder\Interfaces\ProcessingBlock.cs" />
+    <Compile Include="Builder\System\BaseApplication.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Serialization\Serialization.cs" />
+    <Compile Include="SysUtils\Dialogs\Empty.cs" />
+    <Compile Include="SysUtils\Dialogs\InputBox.cs" />
+    <Compile Include="SysUtils\Logging\SysLog.cs" />
+    <Compile Include="Text\UI\Flow\Execution\ExecutionUnit.cs" />
+    <Compile Include="Text\UI\Decision\DecisionContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Text\UI\Decision\DecisionContainer.Designer.cs">
+      <DependentUpon>DecisionContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text\UI\Decision\DecisionLevel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Text\UI\Decision\DecisionLevel.Designer.cs">
+      <DependentUpon>DecisionLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text\UI\Decision\frmSingleDecisionEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Text\UI\Decision\frmSingleDecisionEditor.Designer.cs">
+      <DependentUpon>frmSingleDecisionEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text\UI\Decision\OrientedLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Text\UI\Decision\OrientedLabel.Designer.cs">
+      <DependentUpon>OrientedLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text\UI\Decision\SingleDecision.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Text\UI\Decision\SingleDecision.Designer.cs">
+      <DependentUpon>SingleDecision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text\UI\Flow\FlowConnector.cs" />
+    <Compile Include="Text\UI\Flow\FlowDecision.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Text\UI\Flow\FlowDecision.Designer.cs">
+      <DependentUpon>FlowDecision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text\UI\Flow\FlowDiagram.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Text\UI\Flow\FlowDiagram.Designer.cs">
+      <DependentUpon>FlowDiagram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text\UI\Flow\FlowProcessing.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Text\UI\Flow\FlowProcessing.Designer.cs">
+      <DependentUpon>FlowProcessing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text\UI\Flow\FlowStart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Text\UI\Flow\FlowStart.Designer.cs">
+      <DependentUpon>FlowStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text\UI\Flow\FlowStop.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Text\UI\Flow\FlowStop.Designer.cs">
+      <DependentUpon>FlowStop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text\UI\Flow\Interfaces\FlowComponent.cs" />
+    <Compile Include="Text\UI\Flow\Windows\frmChooseNextComponent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Text\UI\Flow\Windows\frmChooseNextComponent.Designer.cs">
+      <DependentUpon>frmChooseNextComponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Text\Web\Extraction\BasicHTMLTextExtraction.cs" />
+    <Compile Include="Text\Web\Extraction\TextWebBrowser.cs" />
+    <Compile Include="Text\Web\Processing\Sites\Wikitravel\WikitravelCrawler.cs" />
+    <Compile Include="Text\Web\Processing\Sites\Wikitravel\WikitravelDataExtraction.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text\UI\Decision\DecisionContainer.resx">
+      <DependentUpon>DecisionContainer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text\UI\Decision\DecisionLevel.resx">
+      <DependentUpon>DecisionLevel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text\UI\Decision\frmSingleDecisionEditor.resx">
+      <DependentUpon>frmSingleDecisionEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text\UI\Decision\SingleDecision.resx">
+      <DependentUpon>SingleDecision.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text\UI\Flow\FlowDecision.resx">
+      <DependentUpon>FlowDecision.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text\UI\Flow\FlowDiagram.resx">
+      <DependentUpon>FlowDiagram.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text\UI\Flow\FlowProcessing.resx">
+      <DependentUpon>FlowProcessing.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text\UI\Flow\FlowStart.resx">
+      <DependentUpon>FlowStart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text\UI\Flow\FlowStop.resx">
+      <DependentUpon>FlowStop.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Text\UI\Flow\Windows\frmChooseNextComponent.resx">
+      <DependentUpon>frmChooseNextComponent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DecisionBackground.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start_stop.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\processing.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Resources\decision.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Text\UI\Common\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
